@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "path": "app/api/chat/route.ts",
+      "maxDuration": 300
+    },
+    {
+      "path": "app/api/session/route.ts",
+      "maxDuration": 30
+    },
+    {
+      "path": "app/api/files/route.ts",
+      "maxDuration": 30
+    }
+  ]
+}
