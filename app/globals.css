@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-750: #2d3748;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
